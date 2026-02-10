@@ -1,0 +1,26 @@
+# Common
+.DS_Store
+.vscode/
+*.log
+.env
+.env.local
+
+# Frontend (Expo/React Native)
+frontend/node_modules/
+frontend/.expo/
+frontend/dist/
+frontend/web-build/
+frontend/package-lock.json
+frontend/.env*
+!frontend/.env.example
+
+# Backend (Python/FastAPI)
+backend/venv/
+backend/env/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+!backend/.env.example
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/

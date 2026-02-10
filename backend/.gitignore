@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+venv/
+env/
+ENV/
+
+# IDE / General
+.idea/
+.vscode/
+.DS_Store
+.claude/

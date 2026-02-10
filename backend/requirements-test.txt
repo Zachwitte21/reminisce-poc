@@ -1,0 +1,20 @@
+# Testing Dependencies for Reminisce Backend
+
+# Core testing framework
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# HTTP testing
+httpx>=0.27.0  # Required for TestClient async support
+
+# Test data generation
+faker>=22.0.0
+
+# Optional performance enhancements
+pytest-xdist>=3.5.0  # Parallel test execution
+pytest-timeout>=2.2.0  # Prevent hanging tests
+
+# Mocking utilities (already in main requirements, but explicit here)
+# pytest-mock provides the 'mocker' fixture

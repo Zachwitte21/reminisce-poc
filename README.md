@@ -1,1 +1,2 @@
 # reminisce-poc
+Reminisce is a specialized reminiscence therapy application designed for dementia and Alzheimer's patients, caregivers, and family members. It facilitates photo-based therapy sessions with AI voice assistance to help preserve and celebrate memories.
